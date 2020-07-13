@@ -42,7 +42,7 @@ def upload():
             
         index = ['cardboard','glass','metal','paper','plastic','trash']
         
-        text = "the predicted animal is : " + str(index[preds[0]])
+        text = "the predicted waste category is : " + str(index[preds[0]])
         
     return text
 if __name__ == '__main__':
